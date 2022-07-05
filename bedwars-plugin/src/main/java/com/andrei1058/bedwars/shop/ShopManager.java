@@ -147,9 +147,9 @@ public class ShopManager extends ConfigManager {
                     0, 16, "", "", "", false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_BLOCKS, "ladder", 23, "tier1",
-                    BedWars.getForCurrentVersion("LADDER", "LADDER", "LADDER"), 0, 16, false, 4, "iron", false, false);
+                    BedWars.getForCurrentVersion("LADDER", "LADDER", "LADDER"), 0, 8, false, 4, "iron", false, false);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_BLOCKS, "ladder", "tier1", "ladder", BedWars.getForCurrentVersion("LADDER", "LADDER", "LADDER"),
-                    0, 16, "", "", "", false);
+                    0, 8, "", "", "", false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_BLOCKS, "wood", 24, "tier1",
                     BedWars.getForCurrentVersion("WOOD", "WOOD", "OAK_WOOD"), 0, 16, false, 4, "gold", false, false);
@@ -181,7 +181,7 @@ public class ShopManager extends ConfigManager {
                     0, 1, "", "", "", false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_MELEE, "stick", 22, "tier1",
-                    BedWars.getForCurrentVersion("STICK", "STICK", "STICK"), 0, 1, true, 10, "gold", false, false);
+                    BedWars.getForCurrentVersion("STICK", "STICK", "STICK"), 0, 1, true, 5, "gold", false, false);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_MELEE, "stick", "tier1", "stick", BedWars.getForCurrentVersion("STICK", "STICK", "STICK"),
                     0, 1, "KNOCKBACK 1", "", "", false);
 
@@ -189,7 +189,7 @@ public class ShopManager extends ConfigManager {
             addDefaultShopCategory(ConfigPath.SHOP_PATH_CATEGORY_ARMOR, 3, BedWars.getForCurrentVersion("CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS"), 0, 1, false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_ARMOR, "chainmail", 19, "tier1",
-                    BedWars.getForCurrentVersion("CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS"), 0, 1, false, 40, "iron", true, false);
+                    BedWars.getForCurrentVersion("CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS"), 0, 1, false, 30, "iron", true, false);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_ARMOR, "chainmail", "tier1", "boots", BedWars.getForCurrentVersion("CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS", "CHAINMAIL_BOOTS"),
                     0, 1, "", "", "", true);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_ARMOR, "chainmail", "tier1", "leggings", BedWars.getForCurrentVersion("CHAINMAIL_LEGGINGS", "CHAINMAIL_LEGGINGS", "CHAINMAIL_LEGGINGS"),
@@ -303,7 +303,7 @@ public class ShopManager extends ConfigManager {
                     0, 1, "", "", "", false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_UTILITY, "bedbug", 20, "tier1",
-                    BedWars.getForCurrentVersion("SNOW_BALL", "SNOW_BALL", "SNOWBALL"), 0, 1, false, 40, "iron", false, false);
+                    BedWars.getForCurrentVersion("SNOW_BALL", "SNOW_BALL", "SNOWBALL"), 0, 1, false, 30, "iron", false, false);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_UTILITY, "bedbug", "tier1", "bedbug", BedWars.getForCurrentVersion("SNOW_BALL", "SNOW_BALL", "SNOWBALL"),
                     0, 1, "", "", "", false);
 
@@ -333,7 +333,7 @@ public class ShopManager extends ConfigManager {
                     0, 1, "", "", "", false);
 
             adCategoryContentTier(ConfigPath.SHOP_PATH_CATEGORY_UTILITY, "bridge-egg", 28, "tier1",
-                    BedWars.getForCurrentVersion("EGG", "EGG", "EGG"), 0, 1, false, 3, "emerald", false, false);
+                    BedWars.getForCurrentVersion("EGG", "EGG", "EGG"), 0, 1, false, 1, "emerald", false, false);
             addBuyItem(ConfigPath.SHOP_PATH_CATEGORY_UTILITY, "bridge-egg", "tier1", "egg", BedWars.getForCurrentVersion("EGG", "EGG", "EGG"),
                     0, 1, "", "", "", false);
 
